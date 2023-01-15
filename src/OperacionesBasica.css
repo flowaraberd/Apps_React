@@ -1,0 +1,26 @@
+.operacionesResultado{
+    color: #000;
+    background-color: rgba(0, 0, 0, .1);
+    padding: 5px 10px;
+    min-width: 90%;
+    display: inline-block;
+    /* text-align: center; */
+    border-radius: 4px;
+    font-size: 1.05rem;
+}
+.form_span-modal{
+    display: flex;
+    /* flex-direction: row !important; */
+    align-items: flex-start !important;
+    min-height: 80px;
+    padding: 5px 10px;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    border-top: 2px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+    /* background-color: black; */
+}
+.form_span-modal > span.resultado{
+    margin: 4px;
+    word-break: break-all;
+}

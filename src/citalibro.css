@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    min-height: 400px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+.container .form{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.365);
+}
+.container .form .input_content{
+    margin: 10px 0;
+}
+.container .form .input_content.pp{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.container .form .input_content.fiftyp{
+    width: 50%;
+    display: block;
+    flex-direction: column;
+    position: relative;
+}
+.container .form .input_content > .textArea{
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 100px;
+    max-height: 200px;
+}
+.container .form .input_content > .inputText, .inputNumber{
+    width: 100%;
+}
+.container .form .inputForm.pp{
+    width: 90%;
+}
+
+/* =============== DISENO DEL INPUT TEXT ============== */
+.container .form .input_content > .inputText, .inputNumber{
+    height: 40px;
+    border-radius: 4px;
+    padding-left: 5px;
+}
+/* =============== DISENO DEL INPUT Button ============== */
+.container .form .inputForm{
+    height: 30px;
+}
+
+/* ------******************** DISENO DE LA BIBLIOTECA ********************------ */
+
+.container .biblioteca{
+    background-color: rgba(0, 238, 255, 0.365);
+    width: 50%;
+    position: relative;
+    padding: 10px;
+}
+.container .biblioteca > table{
+    width: 100%;
+}
+
